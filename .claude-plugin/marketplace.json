@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "kaizen",
+  "description": "Lean process engineering skills for AI agents. Never automate waste.",
+  "owner": {
+    "name": "Arthur Rolland",
+    "url": "https://github.com/Aycotek"
+  },
+  "plugins": [
+    {
+      "name": "kaizen",
+      "description": "Go see, map, remove waste, fix the root cause, then automate what is left: process maps with real BPMN files, waste walks, 5 whys, honest ROI, standard work.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

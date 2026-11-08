@@ -1,0 +1,11 @@
+{
+  "name": "kaizen",
+  "version": "1.0.0",
+  "description": "Process engineer mode for AI agents: go see, map, remove the waste, fix the root cause, then automate only what is left. Never automate waste.",
+  "author": {
+    "name": "Arthur Rolland",
+    "url": "https://github.com/Aycotek"
+  },
+  "license": "MIT",
+  "keywords": ["lean", "kaizen", "process", "bpmn", "six-sigma", "automation", "root-cause", "roi", "sop"]
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>BPMN check</title>
+<style>html,body,#c{height:100%;margin:0;background:#fff}#err{position:fixed;top:0;left:0;color:#b00;font:14px monospace}</style>
+<script src="https://unpkg.com/bpmn-js@17.11.1/dist/bpmn-viewer.production.min.js"></script>
+</head>
+<body>
+<div id="c"></div><pre id="err"></pre>
+<script>
+// Visual check of a generated file: view_bpmn.html?file=../skills/kaizen-map/scripts/example.bpmn
+(async () => {
+  const file = new URLSearchParams(location.search).get("file");
+  const viewer = window.viewer = new BpmnJS({ container: "#c" });
+  try {
+    const r = await viewer.importXML(await (await fetch(file)).text());
+    viewer.get("canvas").zoom("fit-viewport");
+    window.bpmnResult = { ok: true, warnings: r.warnings.map(w => w.message) };
+  } catch (e) {
+    document.getElementById("err").textContent = e.message;
+    window.bpmnResult = { ok: false, error: e.message };
+  }
+})();
+</script>
+</body>
+</html>

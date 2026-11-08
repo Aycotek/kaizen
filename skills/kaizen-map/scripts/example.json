@@ -1,0 +1,16 @@
+{
+  "name": "Customer quote (current state)",
+  "lanes": ["Customer", "Sales", "Engineering", "Manager"],
+  "steps": [
+    {"id": "start", "type": "start", "name": "Quote request by email", "lane": "Customer", "next": ["read"]},
+    {"id": "read", "name": "Read email, copy details into CRM", "lane": "Sales", "next": ["complete"], "waste": "Transport: re-keying from email to CRM"},
+    {"id": "complete", "type": "gateway", "name": "Information complete?", "lane": "Sales", "next": [{"to": "spec", "label": "yes"}, {"to": "askcust", "label": "no"}]},
+    {"id": "askcust", "name": "Send missing info", "lane": "Customer", "next": ["read"], "waste": "Defects: 40% of requests come back incomplete"},
+    {"id": "spec", "name": "Estimate technical cost", "lane": "Engineering", "next": ["price"], "waste": "Waiting: 3 days in engineering queue"},
+    {"id": "price", "name": "Build quote in spreadsheet", "lane": "Sales", "next": ["approve"]},
+    {"id": "approve", "type": "gateway", "name": "Discount over 10%?", "lane": "Sales", "next": [{"to": "mgr", "label": "yes"}, {"to": "send", "label": "no"}]},
+    {"id": "mgr", "name": "Approve discount", "lane": "Manager", "next": ["send"], "waste": "Waiting: approvals done once a week"},
+    {"id": "send", "name": "Send quote PDF", "lane": "Sales", "next": ["end"]},
+    {"id": "end", "type": "end", "name": "Quote received", "lane": "Customer"}
+  ]
+}
