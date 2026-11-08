@@ -1,6 +1,8 @@
 # Kaizen
 
-**Arrêtez d'automatiser le gaspillage.**
+<p align="center">
+  <img src="../assets/hero-fr.png" width="880" alt="Kaizen. Arrêtez d'automatiser le gaspillage. Votre agent IA cartographie le travail, supprime le gaspillage, puis n'automatise que ce qui reste. L'échelle : 1 Supprimer, 2 Regrouper, 3 Simplifier, 4 Détromper, 5 Règles, 6 IA (seulement ici), 7 Humain.">
+</p>
 
 *Il fait le tour de l'atelier avant de toucher au clavier.*
 

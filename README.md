@@ -1,17 +1,17 @@
-<h1 align="center">Kaizen</h1>
-
-<p align="center"><strong>Stop automating waste.</strong></p>
+<p align="center">
+  <img src="assets/hero.png" width="880" alt="Kaizen. Stop automating waste. Your AI agent maps the work, removes the waste, then automates only what is left. The ladder: 1 Eliminate, 2 Combine, 3 Simplify, 4 Error-proof, 5 Rules, 6 AI (only here), 7 Human.">
+</p>
 
 <p align="center">
   <em>He walks the floor before he touches the keyboard.</em>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-7-111111?style=flat-square" alt="7 skills">
-  <img src="https://img.shields.io/badge/Claude%20Code-plugin-111111?style=flat-square" alt="Claude Code plugin">
-  <img src="https://img.shields.io/badge/AGENTS.md-supported-111111?style=flat-square" alt="AGENTS.md">
-  <img src="https://img.shields.io/badge/BPMN%202.0-export-111111?style=flat-square" alt="BPMN 2.0 export">
-  <img src="https://img.shields.io/badge/license-MIT-111111?style=flat-square" alt="MIT license">
+  <img src="https://img.shields.io/badge/skills-7-6d1d2c?style=flat-square" alt="7 skills">
+  <img src="https://img.shields.io/badge/Claude%20Code-plugin-6d1d2c?style=flat-square" alt="Claude Code plugin">
+  <img src="https://img.shields.io/badge/AGENTS.md-supported-6d1d2c?style=flat-square" alt="AGENTS.md">
+  <img src="https://img.shields.io/badge/BPMN%202.0-export-6d1d2c?style=flat-square" alt="BPMN 2.0 export">
+  <img src="https://img.shields.io/badge/license-MIT-6d1d2c?style=flat-square" alt="MIT license">
 </p>
 
 <p align="center"><a href="i18n/README.fr.md">Français</a></p>
