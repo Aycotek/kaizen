@@ -7,11 +7,11 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-7-6d1d2c?style=flat-square" alt="7 skills">
-  <img src="https://img.shields.io/badge/Claude%20Code-plugin-6d1d2c?style=flat-square" alt="Claude Code plugin">
-  <img src="https://img.shields.io/badge/AGENTS.md-supported-6d1d2c?style=flat-square" alt="AGENTS.md">
-  <img src="https://img.shields.io/badge/BPMN%202.0-export-6d1d2c?style=flat-square" alt="BPMN 2.0 export">
-  <img src="https://img.shields.io/badge/license-MIT-6d1d2c?style=flat-square" alt="MIT license">
+  <img src="assets/badges/skills.svg" alt="7 skills">
+  <img src="assets/badges/plugin.svg" alt="Claude Code plugin">
+  <img src="assets/badges/agents.svg" alt="AGENTS.md">
+  <img src="assets/badges/bpmn.svg" alt="BPMN 2.0 export">
+  <img src="assets/badges/license.svg" alt="MIT license">
 </p>
 
 <p align="center"><a href="i18n/README.fr.md">Français</a></p>
